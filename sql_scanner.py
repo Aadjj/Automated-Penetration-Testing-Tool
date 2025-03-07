@@ -20,4 +20,4 @@ for payload in payloads:
         print(f"🔥 Vulnerable to SQL Injection: {url}")
         break
 else:
-    print("✅ No SQL Injection vulnerabilities found.")
+    print(" No SQL Injection vulnerabilities found.")
