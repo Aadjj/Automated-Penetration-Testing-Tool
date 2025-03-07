@@ -17,7 +17,7 @@ for payload in payloads:
     response = requests.get(url)
 
     if "SQL syntax" in response.text or "mysql_fetch_array()" in response.text:
-        print(f"🔥 Vulnerable to SQL Injection: {url}")
+        print(f" Vulnerable to SQL Injection: {url}")
         break
 else:
     print(" No SQL Injection vulnerabilities found.")
